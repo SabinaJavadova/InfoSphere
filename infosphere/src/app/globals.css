@@ -1,0 +1,28 @@
+@import 'tailwindcss';
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #f1e9e9;
+  color: #15173d;
+}
+
+@keyframes gradientMove {
+  0% { background-position: 0% }
+  100% { background-position: 200% }
+}
+
+.animate-gradient {
+  animation: gradientMove 4s linear infinite;
+}
+
+.swiper-pagination-bullet {
+  background: rgba(21, 23, 61, 0.35) !important;
+  opacity: 1 !important;
+}
+
+.swiper-pagination-bullet-active {
+  background: rgba(152, 37, 152, 0.9) !important;
+}
