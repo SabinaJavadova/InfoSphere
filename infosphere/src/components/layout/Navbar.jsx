@@ -4,15 +4,15 @@ import Link from "next/link";
 import { usePathname, useParams } from "next/navigation";
 import LanguageSwitcher from "./LanguageSwitcher";
 
-export default function Navbar() {
+export default function Navbar({ dict }) {
   const pathname = usePathname();
   const { locale } = useParams();
 
   const links = [
-    { name: "Home", path: "" },
-    { name: "Features", path: "features" },
-    { name: "Services", path: "services" },
-    { name: "Contact", path: "contact" },
+    { key: "home", path: "" },
+    { key: "features", path: "features" },
+    { key: "services", path: "services" },
+    { key: "contact", path: "contact" },
   ];
 
   return (
@@ -37,7 +37,7 @@ export default function Navbar() {
 
             return (
               <Link
-                key={link.name}
+                key={link.key}
                 href={href}
                 className={`relative font-medium transition ${
                   isActive
@@ -45,7 +45,7 @@ export default function Navbar() {
                     : "text-gray-700 hover:text-primary"
                 }`}
               >
-                {link.name}
+                {dict.nav[link.key]}
 
                 {isActive && (
                   <span className="absolute left-0 -bottom-2 w-full h-[2px] bg-primary" />
@@ -55,9 +55,10 @@ export default function Navbar() {
           })}
 
           <button className="px-6 py-2 rounded-full bg-primary text-white font-semibold hover:opacity-90 transition">
-            Get Started
+            {dict.nav.cta}
           </button>
-          <LanguageSwitcher/>
+
+          <LanguageSwitcher />
         </nav>
       </div>
     </header>

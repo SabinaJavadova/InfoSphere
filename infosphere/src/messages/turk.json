@@ -1,0 +1,32 @@
+{
+  "nav": {
+    "home": "Ana Sayfa",
+    "features": "Özellikler",
+    "services": "Hizmetler",
+    "contact": "İletişim",
+    "cta": "Başla"
+  },
+  "hero": {
+    "title": "Dijital varlığın geleceği",
+    "description": "InfoSphere, ölçeklenebilir mimari ve etkileyici arayüzle güçlendirilmiş modern çok dilli bir platformdur.",
+    "primaryButton": "Başla",
+    "secondaryButton": "Daha Fazla"
+  },
+  "features": {
+    "title": "Neden InfoSphere?",
+    "items": [
+      {
+        "title": "Çok dilli yapı",
+        "description": "Küresel kullanıma hazır yapı"
+      },
+      {
+        "title": "API tabanlı",
+        "description": "Harici backend entegrasyonu"
+      },
+      {
+        "title": "Ölçeklenebilir",
+        "description": "Temiz mimari ve modüler tasarım"
+      }
+    ]
+  }
+}

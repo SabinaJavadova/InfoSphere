@@ -1,0 +1,32 @@
+{
+  "nav": {
+    "home": "Ana səhifə",
+    "features": "Xüsusiyyətlər",
+    "services": "Xidmətlər",
+    "contact": "Əlaqə",
+    "cta": "Başla"
+  },
+  "hero": {
+    "title": "Rəqəmsal mövcudluğun gələcəyi",
+    "description": "InfoSphere çoxdilli, müasir və scalable platformadır.",
+    "primaryButton": "Başla",
+    "secondaryButton": "Ətraflı"
+  },
+  "features": {
+    "title": "Niyə InfoSphere?",
+    "items": [
+      {
+        "title": "Çoxdilli sistem",
+        "desc": "Qlobal istifadəyə hazır struktur"
+      },
+      {
+        "title": "API əsaslı",
+        "desc": "Xarici backend inteqrasiyası"
+      },
+      {
+        "title": "Genişlənə bilən",
+        "desc": "Təmiz arxitektura və modul dizayn"
+      }
+    ]
+  }
+}

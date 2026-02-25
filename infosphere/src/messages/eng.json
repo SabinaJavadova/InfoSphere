@@ -1,0 +1,32 @@
+{
+  "nav": {
+    "home": "Home",
+    "features": "Features",
+    "services": "Servives",
+    "contact": "Contact",
+    "cta": "Get Starded"
+  },
+  "hero": {
+    "title": "The Future of Digital Presence",
+    "description": " InfoSphere is a modern multi-language platform powered by scalable architecture and stunning UI.",
+    "primaryButton": "Get Started",
+    "secondaryButton": "Learn More"
+  },
+  "features": {
+    "title": "Why Choose InfoSphere?",
+    "items": [
+      {
+        "title": "Multi-language",
+        "description": "Global ready structure"
+      },
+      {
+        "title": "API Driven",
+        "description": "External backend integration"
+      },
+      {
+        "title": "Scalable",
+        "description": "Clean architecture & modular design"
+      }
+    ]
+  }
+}
