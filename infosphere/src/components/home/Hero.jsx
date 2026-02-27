@@ -1,7 +1,8 @@
 export default function Hero({ dict }) {
   return (
-    <section className="relative bg-dark text-white overflow-hidden">
+    <section className="relative bg-black text-white overflow-hidden">
 
+      {/* Glow */}
       <div className="absolute -top-40 -left-40 w-[500px] h-[500px] bg-primary/30 blur-3xl rounded-full"></div>
       <div className="absolute -bottom-40 -right-40 w-[500px] h-[500px] bg-secondary/30 blur-3xl rounded-full"></div>
 
@@ -15,7 +16,7 @@ export default function Hero({ dict }) {
         </p>
 
         <div className="flex justify-center gap-6">
-          <button className="px-8 py-4 bg-primary rounded-full font-semibold hover:scale-105 transition duration-300 shadow-lg">
+          <button className="px-8 py-4 bg-blue-600 rounded-full font-semibold hover:scale-105 transition duration-300 shadow-lg">
             {dict.hero.primaryButton}
           </button>
 

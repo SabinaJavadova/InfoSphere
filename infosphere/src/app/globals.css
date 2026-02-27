@@ -5,8 +5,8 @@ html {
 }
 
 body {
-  background-color: #f1e9e9;
-  color: #15173d;
+  background-color: #f1e9e9 !important ;
+  color: #15173d !important;
 }
 
 @keyframes gradientMove {

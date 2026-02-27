@@ -16,17 +16,27 @@
     "title": "Why Choose InfoSphere?",
     "items": [
       {
+        "id":1,
         "title": "Multi-language",
         "description": "Global ready structure"
       },
       {
+        "id":2,
         "title": "API Driven",
         "description": "External backend integration"
       },
       {
+        "id":3,
         "title": "Scalable",
         "description": "Clean architecture & modular design"
       }
     ]
-  }
-}
+  },
+  "services":{
+    "title":"Services",
+    "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati pariatur iusto expedita quas dolorem ab id. Illum enim sunt nostrum?"
+},
+"contact":{
+    "title":"Contact",
+    "description":"Contact us!"
+}}

@@ -14,7 +14,7 @@ export default async function LocaleLayout({ children, params }) {
   return (
     <>
       <Navbar dict={dict} />
-      <main className="pt-24">
+      <main className="">
         {children}
       </main>
     </>

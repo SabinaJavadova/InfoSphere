@@ -9,27 +9,26 @@ export default function LanguageSwitcher() {
   const router = useRouter();
   const { locale } = useParams();
 
-  const changeLanguage = (newLocale) => {
+  const changeLanguage = (e) => {
+    const newLocale = e.target.value;
+
     const segments = pathname.split("/");
     segments[1] = newLocale;
+
     router.push(segments.join("/"));
   };
 
   return (
-    <div className="flex items-center gap-2 bg-gray-100 rounded-full p-1">
+    <select
+      value={locale}
+      onChange={changeLanguage}
+      className="px-3 py-2 rounded-full bg-gray-100 text-gray-700 text-sm focus:outline-none focus:ring-2 focus:ring-primary"
+    >
       {locales.map((loc) => (
-        <button
-          key={loc}
-          onClick={() => changeLanguage(loc)}
-          className={`px-3 py-1 text-sm rounded-full transition ${
-            locale === loc
-              ? "bg-primary text-white shadow"
-              : "text-gray-600 hover:text-primary"
-          }`}
-        >
+        <option key={loc} value={loc}>
           {loc.toUpperCase()}
-        </button>
+        </option>
       ))}
-    </div>
+    </select>
   );
 }

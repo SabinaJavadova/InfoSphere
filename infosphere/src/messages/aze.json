@@ -16,17 +16,28 @@
     "title": "Niyə InfoSphere?",
     "items": [
       {
+        "id":1,
         "title": "Çoxdilli sistem",
-        "desc": "Qlobal istifadəyə hazır struktur"
+        "description": "Qlobal istifadəyə hazır struktur"
       },
       {
+        "id":2,
         "title": "API əsaslı",
-        "desc": "Xarici backend inteqrasiyası"
+        "description": "Xarici backend inteqrasiyası"
       },
       {
+        "id":3,
         "title": "Genişlənə bilən",
-        "desc": "Təmiz arxitektura və modul dizayn"
+        "description": "Təmiz arxitektura və modul dizayn"
       }
     ]
-  }
+  },
+  "services":{
+    "title":"Xidmətlər",
+    "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati pariatur iusto expedita quas dolorem ab id. Illum enim sunt nostrum?"
+  },
+  "contact":{
+    "title":"Əlaqə",
+    "description":"Bizimlə əlaqə saxlayın!"
+}
 }

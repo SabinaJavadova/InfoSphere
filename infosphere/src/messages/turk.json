@@ -15,18 +15,26 @@
   "features": {
     "title": "Neden InfoSphere?",
     "items": [
-      {
+      {"id":1,
         "title": "Çok dilli yapı",
         "description": "Küresel kullanıma hazır yapı"
       },
-      {
+      {"id":2,
         "title": "API tabanlı",
         "description": "Harici backend entegrasyonu"
       },
-      {
+      {"id":3,
         "title": "Ölçeklenebilir",
         "description": "Temiz mimari ve modüler tasarım"
       }
     ]
-  }
+  },
+  "services": {
+  "title": "Hizmetlerimiz",
+  "description": "Modern işletmeler için ölçeklenebilir dijital çözümler sunuyoruz. Mimarimiz esneklik, performans ve sorunsuz entegrasyon sağlar."
+},
+"contact": {
+  "title": "İletişim",
+  "description": "Bizimle iletişime geçin!"
+}
 }
